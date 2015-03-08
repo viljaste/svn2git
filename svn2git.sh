@@ -10,7 +10,7 @@ if [ "${?}" -ne 0 ]; then
   exit 1
 fi
 
-git svn 2> /dev/null
+git svn --version 2> /dev/null
 
 if [ "${?}" -ne 0 ]; then
   echo "svn2git: git svn command not found."
