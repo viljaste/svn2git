@@ -97,7 +97,7 @@ DESTINATION="$(pwd)"
 
 SOURCE="${WORKING_DIR}"
 
-if [ "${#}" -gt 2 ]; then
+if [ "${#}" -gt 1 ]; then
   SOURCE="${1}"
 fi
 
